@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito',sans-serif;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.profile-img{
+    width: 10%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.profile-data {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+
+}
+
+.profile-data p {
+    padding-top: 10px;
+}
+
+.social {
+    display: flex;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.social p {
+    margin: 10px;
+    padding: 10px;  
+    border-radius: 10px;
+    width: 100px;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.social span {
+    color:grey;
+}
+
+.gallery-grid {
+    display:grid;
+    padding-top: 100px;
+    gap: 5px;
+    grid-template-columns: 50vw 50vw;
+
+    justify-items: center;
+    align-items: center;
+border: 1px solid blue;
+}
+
+.gallery-grid img {
+
+    border-radius: 30px;
+    border:1px solid red;
+}
