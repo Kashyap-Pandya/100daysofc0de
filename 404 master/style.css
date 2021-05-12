@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.container {
+  display: grid;
+  margin-top: 150px;
+  grid-template-columns: 40% 50%;
+  grid-template-rows: 100%;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid blue; */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+img {
+  width: 50%;
+}
+
+.button {
+  display: flex;
+  padding-top: 30px;
+  justify-content: flex-start;
+}
+
+a {
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 20px;
+  color: White;
+  background-color: black;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+a:hover {
+  background-color: black;
+  color: yellow;
+  font-weight: 600;
+}
+
+.content h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  padding-top: 50px;
+  word-spacing: 3px;
+}
+
+.top-heading {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+footer {
+  font-size: 12px;
+  font-weight: 400;
+  word-spacing: 2px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20vh;
+}
+
+span {
+display: inline-block;
+  color: burlywood;
+  padding:5px;
+
+}
+
+span:hover {
+  color: brown;
+  transform: rotate(30deg);
+}
+/* media query */
+
+@media screen and (max-height: 700px) and (max-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-bg {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0vh;
+  }
+
+}
